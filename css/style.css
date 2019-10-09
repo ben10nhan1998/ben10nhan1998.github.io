@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../img/c9.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#form {
+  margin:auto;
+}
+.topnav {
+  overflow: hidden;
+  background-color: pink;
+}
+
+.topnav a {
+  float: left;
+  color: brown;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: yellow;
+  color: blue;
+}
+
+.topnav a.active {
+  background-color: yellowgreen;
+  color: white;
+}
+
+#introduction {
+  margin: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  background-color: rgba(0,0,0,0.4);
+  padding: 3px 15px;
+  width: 70%;
+}
+
+#about {
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  background-color: rgba(0,0,0,0.3);
+  padding: 3px 15px;
+  width: 40%;
+}
+
+#res {
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  background-color: rgba(0,0,0,0.3);
+  padding: 3px 15px;
+  width: 40%;
+}
+
+#form {
+  background-color: rgba(0,0,0,0.3);
+  margin: auto;
+  padding: 3px 15px;
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  width:30em;
+  margin-top: -9em;
+  margin-left: -15em;
+}
+
+#ref {
+  margin: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  background-color: rgba(0,0,0,0.4);
+  padding: 3px 15px;
+  width: 70%;
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+.about {
+  float: left;
+}
+
+.hobbies {
+  float: right;
+}
+
+.exp {
+  float: left;
+}
+
+.SnE {
+  float: right;
+}
+
+td {
+  border:3px;
+  border-style: solid;
+  margin:2px;
+  padding:2px;
+  background-color: rgba(0,0,0,0.5);
+  font-family: 'Times New Roman', Times, serif;
+  color: yellow;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p,ol,ul,a {
+  color: yellow;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+}
+
+textarea {
+  width: 300px;
+  height: 40px;
+}
